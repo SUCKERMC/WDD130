@@ -129,8 +129,8 @@
         width: 80px;
     }
 
-    .social {
-        width: 40px;
+    .social img {
+        width: 20px;
     }
 
     #hero-img {
@@ -142,7 +142,7 @@
     color: #ffffff;
     }
 
-    footer social {
+    footer .social {
        max-width: 20px;
     }
 
