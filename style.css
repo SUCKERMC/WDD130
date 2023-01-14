@@ -21,7 +21,7 @@
 
        h2 {
         text-align: center;
-        color: steelblue;
+        color: #FF8b33;
        } 
 
     
@@ -105,22 +105,23 @@
         color: #FFFFFf;
     } 
 
-    .msg  h2{
-    background-color: #FFFFFF;
-    color: #FF69B4;
-    text-align: center;
-    }
-
+    
     .msg {
         background-color: #FFFFFF;
         color: #FF69B4;
         }
 
-        .msg p {
-            background-color: #FFFFFF;
+    .msg p {
+          background-color: #FFFFFF;
             color: #FF69B4;        
             }
-
+    
+    .msg {
+        background-color: #FFFFFF;
+        color: #FF69B4;
+        text-align: center;
+             }
+            
     .icon{
         width: 80px;
     }
@@ -129,10 +130,7 @@
         width: 80px;
     }
 
-    .social img {
-        width: 20px;
-    }
-
+   
     #hero-img {
         width: 100%;
     }
