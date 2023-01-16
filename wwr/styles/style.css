@@ -16,12 +16,14 @@
 
        h1 {
         text-align: center;
+        color: steelblue;
        } 
 
-       
-        h1, h2 {
-            color: steelblue;
-        }
+       h2 {
+        text-align: center;
+        color: #FF8b33;
+       } 
+
     
         img {
             width: 40%;
@@ -93,7 +95,7 @@
     }
 
     .join {
-        background-color: #FFFFFF;
+        background-color: #004aad;
         color: #ffffff;
         text-decoration: none;
     }
@@ -103,21 +105,23 @@
         color: #FFFFFf;
     } 
 
-    .msg  h2{
-    background-color: #FFFFFF;
-    color: #ffffff;
-    }
-
+    
     .msg {
-        background-color: #FFFFFF;
+        background-color: #004aad;
         color: #ffffff;
         }
 
-        .msg p {
-            background-color: #FFFFFF;
+    .msg p {
+          background-color: #004aad;
             color: #ffffff;        
             }
-
+    
+    .msg {
+        background-color: #004aad;
+        color: #ffffff;
+        text-align: center;
+             }
+            
     .icon{
         width: 80px;
     }
@@ -126,17 +130,26 @@
         width: 80px;
     }
 
+   
     #hero-img {
         width: 100%;
     }
 
     footer {
-    background-color: #004aad ;
+    background-color: #004aad;
     color: #ffffff;
     }
 
+    footer .social {
+       max-width: 80px;
+       text-align: center;
+       display: block;
+       margin: 0 auto;
+    }
+
+
     footer a {
-        background-color: #004aad ;
+        background-color: #004aad;
         color: #ffffff;
         text-decoration: none;
     }
