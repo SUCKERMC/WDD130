@@ -62,6 +62,7 @@
 
        header nav {
         font-size: 20px;
+        height: 100px;        
        }
 
        #hero {
@@ -120,7 +121,8 @@
        header {
         background-color: #004aad;
         display: grid;
-        grid-template-columns: 150px, auto;
+        grid-template-columns: 150px auto;
+        height: 100px;
        }
 
        nav {
@@ -133,7 +135,7 @@
         color: #ffffff;
        }
 
-       .card-img, mountains {
+       .card-img, .mountains {
         border: 10px solid black;
         width: 100%;
        }
@@ -211,9 +213,11 @@
     }
 
     #logo-link {
-        padding-top: 5px;
+        padding-top: 1px;
         justify-self: center;
         align-self: center;
+        height: 100px;      
+        background-color: #FF8b33;
 }
    
     #hero-img {
