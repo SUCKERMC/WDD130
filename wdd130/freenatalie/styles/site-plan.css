@@ -50,7 +50,7 @@ body {
   margin-top: 0px;
 }
 
-#textsquestions {
+.textsquestions {
   display: grid;
   grid-template-columns: 4fr 2fr;
   justify-items: right;
@@ -58,13 +58,13 @@ body {
   margin-top: 0px;
 }
 
-#textsquestions img {
+.textsquestions img {
   min-width: 400px;
   max-width: 500px;
   margin-right: 60px;
 }
 
-#grid2 {
+.grid2 {
   display: grid;
   grid-template-columns: 5fr 1fr;
   justify-items: center;
@@ -73,24 +73,25 @@ body {
 
 }
 
-#theseare {
+.theseare {
   display: grid;
-  grid-template-columns: 1fr 1fr 1 fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 00px;
   margin-top: 20px;
 
 }
 
-#theseare p:first-of-type {
+.theseare p:first-of-type {
  text-align: left;
 }
-#theseare p:last-of-type {
+
+.theseare p:last-of-type {
 text-align: right;
 }
  
 
 
-#logoquestion {
+.logoquestion {
   min-width: 10px;
 }
 
@@ -117,6 +118,7 @@ hr {
   margin: 35px 0;
   background: var(--accent1-color);
 }
+
 header {
   padding: 1em;
   text-align: center;
@@ -272,35 +274,55 @@ header {
   max-height: 100px;
  }
 
- #researchtext {
+ .researchtext {
   max-width: 1150px;
   text-align: center;
  }
 
- #researchtextpar {
+ .researchtextpar {
   max-width: 900px;
  }
 
-#hero img {
+.hero img {
+  min-width: 465px;
+  max-width: 565px;
+  max-height: 4000px;
+
+}
+
+.hero2 img {
   min-width: 1165px;
   max-width: 1165px;
   max-height: 1000px;
+  }
+  
+  .hero {
+    max-width: 100%;
+  
+  }
+
+
+
+.sideherob img {
+  max-width: 25%;
 }
 
-#hero2 img {
-min-width: 1165px;
-max-width: 1165px;
-max-height: 1000px;
-}
-
-#sidehero img {
+.sideheroc img {
   max-width: 25%;
 }
 
 
 
+.side3group {
+  display: grid;
+  grid-template-columns: 2fr 1fr 3fr;
+  justify-items: center;
+  grid-gap: 60px;
+  margin-top: 0px;
 
-#side3group {
+}
+
+.side3group2 {
   display: grid;
   grid-template-columns: 2fr 1fr 3fr;
   justify-items: center;
@@ -364,6 +386,7 @@ footer {
      display: block;
      margin: 0 auto;
      padding-top: 15px;
+     padding-bottom: 15px;
      border: 0;
   }
 
@@ -390,7 +413,7 @@ footer {
 
   footer .logo {
     max-width: 200px;
-    margin: left;
+    margin: auto;
   }
 
  
