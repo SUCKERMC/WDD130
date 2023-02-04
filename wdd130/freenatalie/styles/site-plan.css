@@ -63,8 +63,18 @@ body {
   max-width: 500px;
   margin-right: 60px;
 }
+ 
+.logo4 {
+
+  min-width: 765px;
+  max-width: 865px;
+  max-height: 1000px;
+  }
+
+
 
 .grid2 {
+
   display: grid;
   grid-template-columns: 5fr 1fr;
   justify-items: center;
@@ -89,12 +99,20 @@ body {
 text-align: right;
 }
  
+.logo3 {
 
+  min-width: 765px;
+  max-width: 865px;
+  max-height: 1000px;
+  }
 
 .logoquestion {
-  min-width: 10px;
-}
 
+    min-width: 765px;
+    max-width: 865px;
+    max-height: 1000px;
+    }
+  
 .textsnav {
   max-width: 10px;
 }
@@ -102,6 +120,12 @@ text-align: right;
 .textsnav2 {
   margin-right: -50px;
 }
+
+.grid2 {
+  max-width: 10px;
+  margin-right: -50px;
+}
+
 
 img {
   display: block;
@@ -251,6 +275,14 @@ nav a:hover {
   padding-bottom: 10px;
 }
 
+
+.logo2 {
+  min-width: 1165px;
+  max-width: 1165px;
+  max-height: 1000px;
+  }
+  
+
 footer .logo {
   max-height: 70px;
   min-height: 60px;
@@ -302,6 +334,12 @@ header {
   }
 
 
+  .hero2 {
+    min-width: 1165px;
+    max-width: 1165px;
+    max-height: 1000px;
+    }
+    
 
 .sideherob img {
   max-width: 25%;
