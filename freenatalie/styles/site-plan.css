@@ -7,7 +7,7 @@ Fonts are separated by a | */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #FFFFFF;
-  --secondary-color: #141400 ;
+  --secondary-color: #141400;
   --accent1-color: #84CBEA;
   --accent2-color: #BA8CA4;
 
@@ -22,13 +22,11 @@ Fonts are separated by a | */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
   --nav-link-color: #396E94;
-  --nav-background-color: #Ba8ca4;
+  --nav-background-color: #000000;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
 
-
-/*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
   max-width: 1200px;
@@ -36,7 +34,75 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  }
+  
+#headline {
+    text-align: left;
+    margin-left: 50px;
+    
+  }
+
+#texts {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  justify-items: center;
+  grid-gap: 60px;
+  margin-top: 0px;
 }
+
+.textsquestions {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  justify-items: right;
+  grid-gap: 0px;
+  margin-top: 0px;
+}
+
+.textsquestions img {
+  min-width: 400px;
+  max-width: 500px;
+  margin-right: 60px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  justify-items: center;
+  grid-gap: 60px;
+  margin-top: 20px;
+
+}
+
+.theseare {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 00px;
+  margin-top: 20px;
+
+}
+
+.theseare p:first-of-type {
+ text-align: left;
+}
+
+.theseare p:last-of-type {
+text-align: right;
+}
+ 
+
+
+.logoquestion {
+  min-width: 10px;
+}
+
+.textsnav {
+  max-width: 10px;
+}
+
+.textsnav2 {
+  margin-right: -50px;
+}
+
 img {
   display: block;
   margin: 0 auto;
@@ -45,14 +111,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
-h2 {
-  text-align: center;
-}
+
+ 
 hr {
   height: 3px;
   margin: 35px 0;
   background: var(--accent1-color);
 }
+
 header {
   padding: 1em;
   text-align: center;
@@ -105,6 +171,7 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
+  padding: 1px 1px;
 }
 nav  {
   list-style-type: none;
@@ -112,10 +179,11 @@ nav  {
 
 }
 nav a {
-  padding:1em;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1px 1px;
 
 }
 nav a:link, nav a:visited {
@@ -158,6 +226,8 @@ nav a:hover {
   line-height: 3em;
 }
 
+
+
 .top {
   grid-area: top;
   border-left: 1px solid;
@@ -174,3 +244,223 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.logo {
+  max-height: 100px;
+  margin-top: 0px;
+  padding-bottom: 10px;
+}
+
+footer .logo {
+  max-height: 70px;
+  min-height: 60px;
+  margin-bottom: 0px;
+  margin-top: -10px;
+}
+
+
+header {
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: 200px auto;
+  height: 70px;
+ }
+
+ .contactnav {
+  min-height: 110px;
+ }
+
+ .logocontact {
+  max-height: 100px;
+ }
+
+ .researchtext {
+  max-width: 1150px;
+  text-align: center;
+ }
+
+ .researchtextpar {
+  max-width: 900px;
+ }
+
+.hero img {
+  min-width: 465px;
+  max-width: 565px;
+  max-height: 4000px;
+
+}
+
+.hero2 img {
+  min-width: 1165px;
+  max-width: 1165px;
+  max-height: 1000px;
+  }
+  
+  .hero {
+    max-width: 100%;
+  
+  }
+
+
+
+.sideherob img {
+  max-width: 25%;
+}
+
+.sideheroc img {
+  max-width: 25%;
+}
+
+
+
+.side3group {
+  display: grid;
+  grid-template-columns: 2fr 1fr 3fr;
+  justify-items: center;
+  grid-gap: 60px;
+  margin-top: 0px;
+
+}
+
+.side3group2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 3fr;
+  justify-items: center;
+  grid-gap: 60px;
+  margin-top: 0px;
+
+}
+
+#sitetitle {
+  margin: auto;
+}
+
+#sitetitle h1 {
+  font-size: 10px;
+  text-align: center;
+}
+
+#sitetitle h2 {
+  font-size: 8px;
+  text-align: center;
+}
+
+#side3group2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  justify-items: center;
+  grid-gap: 60px;
+  margin-top: 0px;
+  margin-left: 75px;
+
+}
+
+#side3group2 img {
+  max-width: 20px;
+}
+
+#sidehero2 img {
+max-width: 165px;
+max-height: 100px;
+
+}
+
+#sidehero3 img {
+  max-width: 235px;
+  max-height: 555px;
+  }
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1px 1px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+  footer .social img {
+     max-width: 20px;
+   /*  text-align: center;*/
+     display: block;
+     margin: 0 auto;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     border: 0;
+  }
+
+
+  footer a {
+      background-color: #004aad;
+      color: #ffffff;
+      text-decoration: none;
+  }
+
+  footer a:hover {
+      background-color: #004aad ;
+      color: #ffffff;
+  }
+
+  footer p {
+      font-size: 15px;
+      color: #ffffff;
+  }
+
+  footer p a:hover {
+      text-decoration: underline;
+  }
+
+  footer .logo {
+    max-width: 200px;
+    margin: auto;
+  }
+
+ 
+  
+  @media screen and (max-width: 900px) {
+      #hero, .home-grid {
+          display: block;
+          height: auto;
+      }
+      nav, footer {
+          flex-direction: column;
+      }
+      nav a {
+          display: block;
+          padding: 15px;
+      }
+      #hero {
+          margin-top: 0;
+      }
+      #hero-msg {
+          margin-top: 0;
+      }
+      #hero-msg h4 {
+          display: none;
+      }
+      .home-title {
+          font-size: 25px;
+          color: #6f7364;
+      }
+      .rivers-card, .camping-card, .rapids-card { 
+          margin: 50px auto;
+          width: 60%;
+      }
+      #background {
+          display: none;
+      }
+      .mountains, .msg {
+          width: 80%;
+          display: block;
+          margin: 0 auto;
+      }
+      footer {
+          margin-top: 25px;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+       }
+      }
