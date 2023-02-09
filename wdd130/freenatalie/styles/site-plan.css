@@ -38,8 +38,7 @@ body {
   
 #headline {
     text-align: left;
-    margin-left: 50px;
-    
+    margin-left: 50px; 
   }
 
 #texts {
@@ -114,8 +113,12 @@ text-align: right;
     }
   
 .textsnav {
-  max-width: 10px;
-}
+      max-width: 10px;
+    }
+
+    .textnav{
+      max-width: 10px;
+    }
 
 .textsnav2 {
   margin-right: -50px;
@@ -309,7 +312,18 @@ header {
  .researchtext {
   max-width: 1150px;
   text-align: center;
+  font-size: 4px;
+  
  }
+
+
+ .researchtext h1{
+  max-width: 1150px;
+  text-align: center;
+  font-size: 4px;
+  
+ }
+
 
  .researchtextpar {
   max-width: 900px;
@@ -368,21 +382,7 @@ header {
   margin-top: 0px;
 
 }
-
-#sitetitle {
-  margin: auto;
-}
-
-#sitetitle h1 {
-  font-size: 10px;
-  text-align: center;
-}
-
-#sitetitle h2 {
-  font-size: 8px;
-  text-align: center;
-}
-
+/*
 #side3group2 {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
@@ -392,6 +392,22 @@ header {
   margin-left: 75px;
 
 }
+*/
+#sitetitle {
+  margin: auto;
+}
+
+#sitetitle h1 {
+  font-size: 5px;
+  text-align: center;
+}
+
+#sitetitle h2 {
+  font-size: 8px;
+  text-align: center;
+}
+
+
 
 #side3group2 img {
   max-width: 20px;
@@ -454,7 +470,44 @@ footer {
     margin: auto;
   }
 
- 
+  
+  .sidenav {
+    width: 170px;
+    position: fixed;
+    z-index: 1;
+    top: 200px;
+    left: 100px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
+  
+  .main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 23px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  .main h1 {
+    font-size: 40px;
+}
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
   
   @media screen and (max-width: 900px) {
       #hero, .home-grid {
@@ -478,7 +531,7 @@ footer {
           display: none;
       }
       .home-title {
-          font-size: 25px;
+          font-size: 7px;
           color: #6f7364;
       }
       .rivers-card, .camping-card, .rapids-card { 
