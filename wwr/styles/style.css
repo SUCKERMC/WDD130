@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Rock+Salt&family=Rubik+Vinyl&display=swap');
 
-        
+  
+.home-grid {
+        display: grid;
+        margin: auto;
+        max-width: 1200px; 
+    }      
+
+    .morethan {
+        display: grid;
+        margin: auto;
+        max-width: 1200px; 
+    }      
+
         nav, footer {
             text-align: center;
             background-color: #Ff8b33;
@@ -138,7 +150,7 @@
        }
 
        .card-img {
-        border: 10px solid black; 
+        border: 10px solid #d9c2a3; 
         transition: transform .5s;
         box-shadow: 5px 5px 10px #6f7364;
        }
@@ -148,6 +160,7 @@
         transform: scale(1.1);
        }
 
+       /*
        .card-img, .mountains {
         border: 10px solid black;  
         width: 100%;
@@ -156,11 +169,12 @@
             justify-content: center;
 
        }
-
+*/
        .mountains {
         grid-column: 2/7;
-        grid-row: 5/8;
+        grid-row: 4/8;
         box-shadow: 5px 5px 10px #6f7364;
+        min-width: 70%;
        }
 
        .rivers-card {
